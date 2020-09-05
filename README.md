@@ -26,12 +26,19 @@ We learn Kotlin programming language. If you don't have any knowledge about prog
 * [Hello World](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/HelloWorld.kt)
 * [Variables](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/Variables.kt)
 * [DataTypes](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/DataTypes.kt)
+* [String](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/String.kt)
+* [TypeConversions](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/TypeConversions.kt)
+* [Arrays](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/Arrays.kt)
+* [ArrayList](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/ArrayList.kt)
 
 ## Resources 📚
 - https://kotlinlang.org/docs/reference/android-overview.html
 - https://developer.android.com/kotlin
 - https://www.programiz.com/kotlin-programming
+- https://www.javatpoint.com/kotlin-tutorial
+- https://www.geeksforgeeks.org/kotlin-programming-language/
 - https://www.udemy.com/course/android-o-mobil-uygulama-dersi-kotlin-java
+
 
 ## License 📋
 ```
