@@ -30,6 +30,8 @@ We learn Kotlin programming language. If you don't have any knowledge about prog
 * [TypeConversions](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/TypeConversions.kt)
 * [Arrays](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/Arrays.kt)
 * [ArrayList](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/ArrayList.kt)
+* [Set](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/Set.kt)
+* [HashSet](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/HashSet.kt)
 
 ## Resources 📚
 - https://kotlinlang.org/docs/reference/android-overview.html
