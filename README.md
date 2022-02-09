@@ -46,7 +46,7 @@ We learn Kotlin programming language. If you don't have any knowledge about prog
 ```
 MIT License
 
-Copyright (c) 2020 Halil Özel
+Copyright (c) 2022 Halil Özel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
