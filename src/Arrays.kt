@@ -31,11 +31,11 @@ fun main() {
 
 
     // charArray
-    val chars = charArrayOf('a','b','c')
+    val chars = charArrayOf('a', 'b', 'c')
 
 
     // Using the for loop to show values on the screen
-    for (i in chars.indices){
+    for (i in chars.indices) {
         println(chars[i])
     }
 

@@ -1,7 +1,6 @@
 fun main() {
 
     /*
-
         Set interface is a generic unordered collection of elements and it does not contain duplicate elements.
         Kotlin supports two types of sets mutable and immutable.
 
@@ -61,7 +60,7 @@ fun main() {
 
      */
 
-    val cities = setOf("Istanbul","Paris","New York","London","Berlin")
+    val cities = setOf("Istanbul", "Paris", "New York", "London", "Berlin")
 
 
     println("The element at index 3 is : ${cities.elementAt(3)}") // London

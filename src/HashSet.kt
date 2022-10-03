@@ -11,7 +11,7 @@ fun main() {
 
 
     // declaring a hashSet of chars
-    val chars = hashSetOf('p','a','z','w')
+    val chars = hashSetOf('p', 'a', 'z', 'w')
 
     // println set contains
     println(chars)
@@ -20,7 +20,7 @@ fun main() {
     chars.add('c')
 
 
-    val newChars = setOf('b','o')
+    val newChars = setOf('b', 'o')
 
     //making an extra set to add it in chars
     chars.addAll(newChars)

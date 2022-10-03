@@ -137,7 +137,7 @@ fun main() {
      */
 
 
-    // Booleans are used in decision making statements.
+    // Booleans are used in decision-making statements.
     val flag = false
     println("$flag")
 

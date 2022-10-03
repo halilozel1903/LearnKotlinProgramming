@@ -11,21 +11,18 @@ fun main() {
     println("$x + $y = $z") // 2 + 3 = 23
 
 
-
     // String Type A Value
     val languageName = "Kotlin"
 
     //In Kotlin, a String is interpreted as an expression Array
-    for (character in languageName){
+    for (character in languageName) {
 
         println(character) // K - o - t - l - i - n
     }
 
 
-
     // String expression's length value : 6
     println("Language Name's Character Length : ${languageName.length}")
-
 
 
     val nameSurname = "  Halil Ozel   "
@@ -36,7 +33,6 @@ fun main() {
     println(nameSurname.trim()) // Halil Ozel
 
 
-
     // toUpperCase() : All characters are Big.
     val message = "WE love KoTlIn"
 
@@ -44,7 +40,6 @@ fun main() {
 
     // toLowerCase()  : All characters are Small.
     println(message.toLowerCase()) // we love kotlin
-
 
 
     // String Value

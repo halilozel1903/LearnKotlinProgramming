@@ -26,10 +26,10 @@ fun main() {
     val number2: Int = string1.toInt()
 
     // "54"+11 = 5411
-    println("number1 = ${string1+11}")
+    println("number1 = ${string1 + 11}")
 
     // 54 + 11 = 65
-    println("number2 = ${number2+11}")
+    println("number2 = ${number2 + 11}")
 
 
     // smaller types are NOT implicitly converted to bigger types.
