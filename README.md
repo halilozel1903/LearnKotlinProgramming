@@ -4,8 +4,6 @@
 
 We learn Kotlin programming language. If you don't have any knowledge about programming Don't Worry, we learn everything from the very beginning.
 
-
-
 ## About Kotlin Programming & Why Learn Kotlin? 🤔
 
 ![kotlin](https://www.netsolutions.com/insights/wp-content/uploads/2020/04/Kotlin.jpg)
@@ -46,7 +44,7 @@ We learn Kotlin programming language. If you don't have any knowledge about prog
 ```
 MIT License
 
-Copyright (c) 2022 Halil Özel
+Copyright (c) 2022 Halil OZEL
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
