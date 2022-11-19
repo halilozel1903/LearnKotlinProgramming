@@ -9,7 +9,6 @@ fun main() {
     - They can be accessed programmatically through their indexes (array[1], array[0], etc.)
     - They're mutable.
     - Their size is fixed.
-
      */
 
 
@@ -22,11 +21,9 @@ fun main() {
 
 
     /*
-
     Kotlin also has some built-in factory methods to create arrays of primitive data types,
     such as byteArray, intArray, shortArray, etc.
     These classes do not extend the Array class; however, they implement the same methods and properties.
-
      */
 
 
@@ -38,6 +35,4 @@ fun main() {
     for (i in chars.indices) {
         println(chars[i])
     }
-
-
 }

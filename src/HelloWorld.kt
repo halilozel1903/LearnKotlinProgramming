@@ -5,7 +5,6 @@ fun main() {
     Since it's a very simple program it's often used to introduce a New Programming Language.
      */
 
-
     println("Hello World!") // The println() function prints the given message inside the quotation marks
     // and newline to the standard output stream.
 

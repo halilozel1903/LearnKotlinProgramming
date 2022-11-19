@@ -1,6 +1,5 @@
 fun main() {
 
-
     var x = "2"
     var y = "3"
 
@@ -16,10 +15,8 @@ fun main() {
 
     //In Kotlin, a String is interpreted as an expression Array
     for (character in languageName) {
-
         println(character) // K - o - t - l - i - n
     }
-
 
     // String expression's length value : 6
     println("Language Name's Character Length : ${languageName.length}")
@@ -59,5 +56,4 @@ fun main() {
     println("newSeries Size : ${newSeries.size}") // newSeries Size : 4
 
     println("newSeries[2] = ${newSeries[2]}") // newSeries[2] = ur M
-
 }

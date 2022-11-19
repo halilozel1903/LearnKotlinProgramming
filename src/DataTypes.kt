@@ -2,7 +2,6 @@ fun main() {
 
     // As you know, a variable is a location in memory (storage area) to hold data.
 
-
     // variable declaration of type String
     var language: String
 

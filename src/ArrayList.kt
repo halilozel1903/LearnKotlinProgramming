@@ -20,7 +20,6 @@ fun main() {
 
     // print ArrayList elements
     for (language in arrayList) {
-
         println("Mobile Programming Language : $language")
     }
 

@@ -11,7 +11,6 @@ fun main() {
 
        - This function returns a new read only set of given elements.
        - The elements are iterated over, according as they are stored .
-
      */
 
     val mySet = setOf("Kotlin", "Java", "Swift", "Objective-C", "Flutter", "React Native")
@@ -61,7 +60,6 @@ fun main() {
      */
 
     val cities = setOf("Istanbul", "Paris", "New York", "London", "Berlin")
-
 
     println("The element at index 3 is : ${cities.elementAt(3)}") // London
 
