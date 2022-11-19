@@ -37,8 +37,6 @@ We learn Kotlin programming language. If you don't have any knowledge about prog
 - https://www.programiz.com/kotlin-programming
 - https://www.javatpoint.com/kotlin-tutorial
 - https://www.geeksforgeeks.org/kotlin-programming-language/
-- https://www.udemy.com/course/android-o-mobil-uygulama-dersi-kotlin-java
-
 
 ## License 📋
 ```
