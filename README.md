@@ -1,4 +1,4 @@
-# Learn Kotlin Programming 🔥
+# Learn Kotlin Programming 2️⃣0️⃣2️⃣3️⃣
 
 ![picture](https://hypersense-software.com/blogs-assets/21756fe3-8017-922f-7b4c-271a0dea5044/file_1582906717409.jpg)
 
@@ -42,7 +42,7 @@ We learn Kotlin programming language. If you don't have any knowledge about prog
 ```
 MIT License
 
-Copyright (c) 2022 Halil OZEL
+Copyright (c) 2023 Halil OZEL
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
