@@ -9,7 +9,6 @@ fun main() {
     // When string type data is addition, the data is written side by side.
     println("$x + $y = $z") // 2 + 3 = 23
 
-
     // String Type A Value
     val languageName = "Kotlin"
 

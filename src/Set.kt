@@ -51,7 +51,6 @@ fun main() {
     // average method
     println("The average of the element in the set is : ${numberSet.average()}")
 
-
     /*
     Using index functions indexOf(), lastIndexOf() You can get the index of the specified element.
 

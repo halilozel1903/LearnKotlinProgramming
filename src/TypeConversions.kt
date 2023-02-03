@@ -30,7 +30,6 @@ fun main() {
     // 54 + 11 = 65
     println("number2 = ${number2 + 11}")
 
-
     // smaller types are NOT implicitly converted to bigger types.
     // This means that we cannot assign a value of type Byte to an Int variable without an explicit conversion
 
