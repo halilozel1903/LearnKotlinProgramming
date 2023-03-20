@@ -4,7 +4,7 @@
 
 We learn Kotlin programming language. If you don't have any knowledge about programming Don't Worry, we learn everything from the very beginning.
 
-## About Kotlin Programming & Why Learn Kotlin? 🤔
+## About Kotlin Programming & Why Learn Kotlin? 🤔👀
 
 ![kotlin](https://www.netsolutions.com/insights/wp-content/uploads/2020/04/Kotlin.jpg)
 
