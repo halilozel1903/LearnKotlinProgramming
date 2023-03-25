@@ -1,7 +1,6 @@
 fun main() {
 
-    /*
-
+    /**
     ArrayList class is used to create a dynamic array.
     Which means the size of ArrayList class can be increased or decreased according to requirement.
     ArrayList class provides both read and write functionalities.

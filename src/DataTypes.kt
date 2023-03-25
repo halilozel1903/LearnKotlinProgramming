@@ -15,13 +15,13 @@ fun main() {
     age = 23
 
 
-    /*
+    /**
     Kotlin is a statically typed language like Java.
     That is, the type of a variable is known during the compile time.
      */
 
 
-    /*
+    /**
         The built-in types in Kotlin can be categorized as :
         - Numbers
         - Characters
@@ -31,7 +31,7 @@ fun main() {
      */
 
 
-    /*
+    /**
     There are 6 built-in types representing numbers.
         - Byte
         - Short
@@ -90,7 +90,7 @@ fun main() {
     println(number)
 
 
-    /*
+    /**
     If you are not sure what number value a variable will be assigned in the program, you can specify it as Number type.
     This allows you to assign both integer and floating-point value to the variable (one at a time).
      */
@@ -111,7 +111,7 @@ fun main() {
     println("newNumber : $newNumber")
 
 
-    /*
+    /**
     Char : To represent a character in Kotlin, Char types are used.
     Unlike Java, Char types cannot be treated as numbers.
      */
@@ -122,7 +122,7 @@ fun main() {
     // letter = 65 -> The integer literal does not conform to the expected type Char
 
 
-    /*
+    /**
     String : In Kotlin, strings are represented by the String class.
     The string literals such as "this is a string" is implemented as an instance of this class.
      */
@@ -131,7 +131,7 @@ fun main() {
     println(nameSurname)
 
 
-    /*
+    /**
     Boolean : The Boolean data type has two possible values, either true or false.
      */
 
@@ -141,7 +141,7 @@ fun main() {
     println("$flag")
 
 
-    /*
+    /**
     Arrays : In Kotlin, arrays are represented by the Array class.
     The class has get and set functions, size property and a few other useful member functions.
     To learn in detail about arrays next lessons -> coming soon

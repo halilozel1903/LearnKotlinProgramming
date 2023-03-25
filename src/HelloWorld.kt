@@ -1,6 +1,6 @@
 fun main() {
 
-    /*
+    /**
     A "Hello World!" is a simple program that outputs Hello World! on the screen.
     Since it's a very simple program it's often used to introduce a New Programming Language.
      */
@@ -12,7 +12,7 @@ fun main() {
 
     // As you know, Kotlin is 100% interoperable with Java.
 
-    /*
+    /**
     class HelloWorldKt {
     public static void main(String[] args) {
         System.out.println("Hello, World!");

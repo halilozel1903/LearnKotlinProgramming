@@ -1,6 +1,6 @@
 fun main() {
 
-    /*
+    /**
         Set interface is a generic unordered collection of elements and it does not contain duplicate elements.
         Kotlin supports two types of sets mutable and immutable.
 
@@ -51,11 +51,10 @@ fun main() {
     // average method
     println("The average of the element in the set is : ${numberSet.average()}")
 
-    /*
+    /**
     Using index functions indexOf(), lastIndexOf() You can get the index of the specified element.
 
     And You can also find the elements at some specific index using elementAt() function.
-
      */
 
     val cities = setOf("Istanbul", "Paris", "New York", "London", "Berlin")

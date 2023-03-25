@@ -1,6 +1,6 @@
 fun main() {
 
-    /*
+    /**
     In Kotlin, a numeric value of one type is not automatically converted to another type even when the other type is larger.
     This is different from how Java handles numeric conversions.
 

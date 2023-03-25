@@ -1,6 +1,6 @@
 fun main() {
 
-    /*
+    /**
         HashSet is a generic unordered collection of elements and it does not contain duplicate elements.
 
         It implements the set interface. hashSetOf() is a function which returns a mutable hashSet,
@@ -27,7 +27,7 @@ fun main() {
 
     println(chars)
 
-    /*
+    /**
         HashSet there is a hash value calculated for each object and this hash value determines the array index of the
         particular object in the container. So the order of inserted elements are naturally not preserved.
         This allows for accessing desired elements with O(1) complexity but it costs a lot of memory
