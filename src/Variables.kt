@@ -1,5 +1,5 @@
 fun main() {
-    /*
+    /**
     var (Mutable Reference) - The variable declared using var keyword can be changed later in the program.
      It corresponds to regular Java variable.
      */
@@ -13,7 +13,7 @@ fun main() {
 
     println(number2)
 
-    /*
+    /**
     val (Immutable Reference) - The variable declared using val keyword cannot be changed once the value is assigned.
     It is similar to final variable in Java.
      */
