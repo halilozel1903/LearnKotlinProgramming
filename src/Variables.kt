@@ -1,7 +1,7 @@
 fun main() {
     /**
     var (Mutable Reference) - The variable declared using var keyword can be changed later in the program.
-     It corresponds to regular Java variable.
+    It corresponds to regular Java variable.
      */
 
     var number1 = 11
