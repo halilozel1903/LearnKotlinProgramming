@@ -19,7 +19,7 @@ We learn Kotlin programming language. If you don't have any knowledge about prog
 9. **Kotlin support in Android Jetpack and other libraries** : KTX extensions add Kotlin language features, such as coroutines, extension functions, lambdas, and named parameters, to existing Android libraries.
 10. **Mature language and environment** : Since its creation in 2011, Kotlin has developed continuously, not only as a language but as a whole ecosystem with robust tooling. Now it's seamlessly integrated in Android Studio and is actively used by many companies for developing Android applications.
 
-## Lessons & Examples (New lessons & examples will come) 🔜
+## Lessons & Samples (New lessons & samples will come) 🔜
 
 * [Hello World](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/HelloWorld.kt)
 * [Variables](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/Variables.kt)
