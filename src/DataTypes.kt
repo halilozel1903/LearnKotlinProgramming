@@ -22,23 +22,23 @@ fun main() {
 
 
     /**
-        The built-in types in Kotlin can be categorized as :
-        - Numbers
-        - Characters
-        - Booleans
-        - Arrays
+    The built-in types in Kotlin can be categorized as :
+    - Numbers
+    - Characters
+    - Booleans
+    - Arrays
 
      */
 
 
     /**
     There are 6 built-in types representing numbers.
-        - Byte
-        - Short
-        - Int
-        - Long
-        - Float
-        - Double
+    - Byte
+    - Short
+    - Int
+    - Long
+    - Float
+    - Double
      */
 
 
