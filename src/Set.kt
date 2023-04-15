@@ -1,16 +1,16 @@
 fun main() {
 
     /**
-        Set interface is a generic unordered collection of elements and it does not contain duplicate elements.
-        Kotlin supports two types of sets mutable and immutable.
+    Set interface is a generic unordered collection of elements and it does not contain duplicate elements.
+    Kotlin supports two types of sets mutable and immutable.
 
-        setOf() :  Immutable means it supports only read-only functionalities.
-        mutableSetOf() : Mutable means it supports read and write both functionality.
+    setOf() :  Immutable means it supports only read-only functionalities.
+    mutableSetOf() : Mutable means it supports read and write both functionality.
 
-        Syntax: fun <T> setOf( vararg elements: T): Set<T>
+    Syntax: fun <T> setOf( vararg elements: T): Set<T>
 
-       - This function returns a new read only set of given elements.
-       - The elements are iterated over, according as they are stored .
+    - This function returns a new read only set of given elements.
+    - The elements are iterated over, according as they are stored .
      */
 
     val mySet = setOf("Kotlin", "Java", "Swift", "Objective-C", "Flutter", "React Native")
