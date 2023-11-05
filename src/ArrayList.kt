@@ -32,7 +32,7 @@ fun main() {
 
     for (age in ageList) {
 
-        println("Age : " + age)
+        println("Age : $age")
     }
 
 
@@ -41,12 +41,12 @@ fun main() {
 
 
     // The get() function of ArrayList class is used to retrieve the element present at given specified index.
-    println("ageList.get(1) : ${ageList.get(1)}")
+    println("ageList.get(1) : ${ageList[1]}")
 
 
     // The set() function of ArrayList class is used to set the given element at specified index and replace
     // if any element present at specified index.
-    ageList.set(0, 45)
+    ageList[0] = 45
 
 
     // The indexOf() function of ArrayList class is used to retrieve the index value of first occurrence of element or
