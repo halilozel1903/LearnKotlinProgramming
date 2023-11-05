@@ -1,10 +1,10 @@
 fun main() {
 
-    var x = "2"
-    var y = "3"
+    val x = "2"
+    val y = "3"
 
     // String + String = String
-    var z = x + y
+    val z = x + y
 
     // When string type data is addition, the data is written side by side.
     println("$x + $y = $z") // 2 + 3 = 23
@@ -39,16 +39,16 @@ fun main() {
 
 
     // String Value
-    var tvSeries = "How I Met Your Mother"
+    val tvSeries = "How I Met Your Mother"
 
     // split() : This method divides
     println(tvSeries.split(" ")) // [How, I, Met, Your, Mother]
 
     // When it finds the letter r, it divides it up.
-    println(tvSeries.split("r")) // [How I Met You,  Mothe, ]
+    println(tvSeries.split("r")) // [How I Met You,  Mother, ]
 
     // When it finds the letter o, it divides it up. New Array is ready
-    var newSeries = tvSeries.split("o")
+    val newSeries = tvSeries.split("o")
 
     println("newSeries : $newSeries") // newSeries : [H, w I Met Y, ur M, ther]
 
