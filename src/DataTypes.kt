@@ -17,7 +17,7 @@ fun main() {
 
     /**
     Kotlin is a statically typed language like Java.
-    That is, the type of a variable is known during the compile time.
+    That is, the type of variable is known during the compile time.
      */
 
 
