@@ -1,3 +1,5 @@
+import java.util.*
+
 fun main() {
 
     val x = "2"
@@ -32,10 +34,10 @@ fun main() {
     // toUpperCase() : All characters are Big.
     val message = "WE love KoTlIn"
 
-    println(message.toUpperCase()) // WE LOVE KOTLIN
+    println(message.uppercase(Locale.getDefault())) // WE LOVE KOTLIN
 
     // toLowerCase()  : All characters are Small.
-    println(message.toLowerCase()) // we love kotlin
+    println(message.lowercase(Locale.getDefault())) // we love kotlin
 
 
     // String Value
