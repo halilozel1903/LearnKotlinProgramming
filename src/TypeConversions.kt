@@ -15,7 +15,6 @@ fun main() {
     toChar()
 
     Note: There is no conversion for Boolean types.
-
      */
 
     // String Value
