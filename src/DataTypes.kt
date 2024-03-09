@@ -30,7 +30,6 @@ fun main() {
 
      */
 
-
     /**
     There are 6 built-in types representing numbers.
     - Byte
@@ -40,7 +39,6 @@ fun main() {
     - Float
     - Double
      */
-
 
     // 1) Byte -> The Byte data type can have values from -128 to 127 (8-bit signed two's complement integer).
 
