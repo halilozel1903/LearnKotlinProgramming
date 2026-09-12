@@ -1,69 +1,75 @@
-# Learn Kotlin Programming 2️⃣ 0️⃣ 2️⃣ 3️⃣
+# Learn Kotlin Programming
 
 ![picture](https://hypersense-software.com/blogs-assets/21756fe3-8017-922f-7b4c-271a0dea5044/file_1582906717409.jpg)
 
-We learn Kotlin programming language. If you don't have any knowledge about programming Don't Worry, we learn everything from the very beginning.
+A beginner-friendly introduction to the Kotlin programming language. If you have no programming background, start here — the lessons begin from the very first line of code.
 
-## About Kotlin Programming & Why Learn Kotlin? 🤔👀
+This project uses **Kotlin 2.4.20**, the [Gradle Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html), and a **Java 21** toolchain.
+
+## About Kotlin and why learn it
 
 ![kotlin](https://www.netsolutions.com/insights/wp-content/uploads/2020/04/Kotlin.jpg)
 
-1. **Open Source** : The Kotlin compiler, Intellij IDEA plugin, and build tools are all open source.
-2. **Interoperable** : Kotlin is %100 interoperable with Java. This means all your current Java/Android code works seamlessly with Kotlin.
-3. **Easy learning** : Kotlin is very easy to learn, especially for Java developers.
-4. **Concise** : Compared to Java, Kotlin code are much more concise. Also, Kotlin code is much more expressive.
-5. **Tool-friendly** : Kotlin is developed by JetBrains, the company renowned for creating development tools.
-6. **Big community** : Kotlin has great support and many contributions from the community, which is growing all over the world. According to Google, over 60% of the top 1000 apps on the Play Store use Kotlin.
-7. **Code safety** : Less code and better readability lead to fewer errors. The Kotlin compiler detects these remaining errors, making the code safe.
-8. **Support for multiplatform development** : You can use Kotlin for developing not only Android but also iOS, Backend, and Web applications.
-9. **Kotlin support in Android Jetpack and other libraries** : KTX extensions add Kotlin language features, such as coroutines, extension functions, lambdas, and named parameters, to existing Android libraries.
-10. **Mature language and environment** : Since its creation in 2011, Kotlin has developed continuously, not only as a language but as a whole ecosystem with robust tooling. Now it's seamlessly integrated in Android Studio and is actively used by many companies for developing Android applications.
+1. **Open source**: The Kotlin compiler, IDE plugins, and build tools are open source.
+2. **Interoperable**: Kotlin is designed to work with Java. Existing Java and Android code can call Kotlin, and the other way around.
+3. **Easy to learn**: The syntax is concise, especially if you already know Java.
+4. **Concise and expressive**: Kotlin programs are typically shorter than the equivalent Java.
+5. **Tool-friendly**: Kotlin is developed by JetBrains, the company behind IntelliJ IDEA and Android Studio.
+6. **Large community**: Kotlin is used across Android, backend, and multiplatform projects, with a growing ecosystem.
+7. **Safer code**: Null safety, smart casts, and compiler checks catch many mistakes before you run the program.
+8. **Multiplatform**: You can share Kotlin code across Android, iOS, backend, desktop, and web targets.
+9. **First-class Android support**: Android Jetpack, KTX, and Coroutines are built around Kotlin language features.
+10. **Mature toolchain**: Since 2011, Kotlin has grown into a full ecosystem. The K2 compiler (Kotlin 2.x) is the default.
 
-## Lessons & Samples (New lessons, samples will come) 🔜
+## How to run the lessons
 
-* [Hello World](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/HelloWorld.kt)
-* [Variables](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/Variables.kt)
-* [DataTypes](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/DataTypes.kt)
-* [String](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/String.kt)
-* [TypeConversions](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/TypeConversions.kt)
-* [Arrays](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/Arrays.kt)
-* [ArrayList](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/ArrayList.kt)
-* [Set](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/Set.kt)
-* [HashSet](https://github.com/halilozel1903/LearnKotlinProgramming/blob/master/src/HashSet.kt)
+You need [JDK 21](https://adoptium.net/) or newer. The Gradle Wrapper downloads Gradle 9.7.1 for you.
 
-## Support 💸
-If this project help 💁 you, can buy me a cup of coffee. ☕
+```bash
+# Compile every lesson
+./gradlew compileKotlin
+
+# Run the Hello World lesson (default)
+./gradlew run
+
+# Run any other lesson by file name (without .kt)
+./gradlew runLesson -Plesson=Variables
+./gradlew runLesson -Plesson=DataTypes
+./gradlew runLesson -Plesson=String
+./gradlew runLesson -Plesson=TypeConversions
+./gradlew runLesson -Plesson=Arrays
+./gradlew runLesson -Plesson=ArrayList
+./gradlew runLesson -Plesson=Set
+./gradlew runLesson -Plesson=HashSet
+```
+
+You can also open the project in IntelliJ IDEA and run the `main()` function in any lesson file.
+
+## Lessons and samples
+
+* [Hello World](src/main/kotlin/HelloWorld.kt)
+* [Variables](src/main/kotlin/Variables.kt)
+* [Data types](src/main/kotlin/DataTypes.kt)
+* [String](src/main/kotlin/String.kt)
+* [Type conversions](src/main/kotlin/TypeConversions.kt)
+* [Arrays](src/main/kotlin/Arrays.kt)
+* [Lists / ArrayList](src/main/kotlin/ArrayList.kt)
+* [Set](src/main/kotlin/Set.kt)
+* [HashSet](src/main/kotlin/HashSet.kt)
+
+## Support
+
+If this project helps you, you can buy me a cup of coffee.
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/halilozel1903)
 
-## Resources 📚
-- https://kotlinlang.org/docs/reference/android-overview.html
+## Resources
+
+- https://kotlinlang.org/docs/getting-started.html
+- https://kotlinlang.org/docs/home.html
 - https://developer.android.com/kotlin
-- https://www.programiz.com/kotlin-programming
-- https://www.javatpoint.com/kotlin-tutorial
-- https://www.geeksforgeeks.org/kotlin-programming-language/
+- https://play.kotlinlang.org/
 
-## License 📋
-```
-MIT License
+## License
 
-Copyright (c) 2023 Halil OZEL
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+This project is licensed under the [MIT License](LICENSE).
