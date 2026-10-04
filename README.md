@@ -37,25 +37,46 @@ You need [JDK 21](https://adoptium.net/) or newer. The Gradle Wrapper downloads 
 ./gradlew runLesson -Plesson=DataTypes
 ./gradlew runLesson -Plesson=String
 ./gradlew runLesson -Plesson=TypeConversions
+./gradlew runLesson -Plesson=Loops
+./gradlew runLesson -Plesson=When
+./gradlew runLesson -Plesson=Functions
+./gradlew runLesson -Plesson=Map
 ./gradlew runLesson -Plesson=Arrays
 ./gradlew runLesson -Plesson=ArrayList
 ./gradlew runLesson -Plesson=Set
 ./gradlew runLesson -Plesson=HashSet
+
+# Or run a lesson with its dedicated task (file name without .kt)
+./gradlew runHelloWorld
+./gradlew runVariables
+./gradlew runLoops
+./gradlew runFunctions
+
+# Run unit tests for lesson helpers
+./gradlew test
 ```
 
 You can also open the project in IntelliJ IDEA and run the `main()` function in any lesson file.
 
-## Lessons and samples
+## Lessons (2026 fundamentals track)
 
-* [Hello World](src/main/kotlin/HelloWorld.kt)
-* [Variables](src/main/kotlin/Variables.kt)
-* [Data types](src/main/kotlin/DataTypes.kt)
-* [String](src/main/kotlin/String.kt)
-* [Type conversions](src/main/kotlin/TypeConversions.kt)
-* [Arrays](src/main/kotlin/Arrays.kt)
-* [Lists / ArrayList](src/main/kotlin/ArrayList.kt)
-* [Set](src/main/kotlin/Set.kt)
-* [HashSet](src/main/kotlin/HashSet.kt)
+All lesson sources and Gradle task names use **English** identifiers. Sample output may include Turkish place names or phrases for learners.
+
+| Lesson | Source | Gradle task | Topics |
+| --- | --- | --- | --- |
+| Hello World | [HelloWorld.kt](src/main/kotlin/HelloWorld.kt) | `runHelloWorld` | Entry point, `println` / `print` |
+| Variables | [Variables.kt](src/main/kotlin/Variables.kt) | `runVariables` | `var`, `val`, type inference |
+| Data types | [DataTypes.kt](src/main/kotlin/DataTypes.kt) | `runDataTypes` | Numeric types, `Char`, `String`, `Boolean` |
+| String | [String.kt](src/main/kotlin/String.kt) | `runString` | Concatenation, iteration, `trim`, case, `split` |
+| Type conversions | [TypeConversions.kt](src/main/kotlin/TypeConversions.kt) | `runTypeConversions` | `toInt`, `toIntOrNull`, explicit casts |
+| Loops | [Loops.kt](src/main/kotlin/Loops.kt) | `runLoops` | `while`, `for`, ranges, `break` / `continue`, `repeat` |
+| When | [When.kt](src/main/kotlin/When.kt) | `runWhen` | `when` statement and expression, type checks |
+| Functions | [Functions.kt](src/main/kotlin/Functions.kt) | `runFunctions` | Parameters, defaults, single-expression functions, `vararg` |
+| Map | [Map.kt](src/main/kotlin/Map.kt) | `runMap` | Read-only and mutable maps, keys and values |
+| Arrays | [Arrays.kt](src/main/kotlin/Arrays.kt) | `runArrays` | `arrayOf`, `IntArray`, indices |
+| Lists / ArrayList | [ArrayList.kt](src/main/kotlin/ArrayList.kt) | `runArrayList` | `listOf`, `mutableListOf`, list operations |
+| Set | [Set.kt](src/main/kotlin/Set.kt) | `runSet` | `setOf`, uniqueness, set statistics |
+| HashSet | [HashSet.kt](src/main/kotlin/HashSet.kt) | `runHashSet` | `hashSetOf`, set algebra |
 
 ## Support
 
