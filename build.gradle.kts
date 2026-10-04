@@ -3,8 +3,18 @@ plugins {
     application
 }
 
+group = "com.halilozel"
+version = "2.0.0"
+
+repositories {
+    mavenCentral()
+}
+
 kotlin {
     jvmToolchain(21)
+    compilerOptions {
+        progressiveMode.set(true)
+    }
 }
 
 dependencies {
@@ -19,21 +29,25 @@ application {
     mainClass.set("HelloWorldKt")
 }
 
+tasks.named<JavaExec>("run") {
+    standardInput = System.`in`
+}
+
 tasks.register<JavaExec>("runLesson") {
     group = "application"
-    description = "Run a lesson. Example: ./gradlew runLesson -Plesson=Variables"
+    description = "Run a lesson by name. Example: ./gradlew runLesson -Plesson=Variables"
     val lessonName = providers.gradleProperty("lesson").orElse("HelloWorld")
     classpath = sourceSets.main.get().runtimeClasspath
     mainClass.set(lessonName.map { "${it}Kt" })
     standardInput = System.`in`
 }
 
-fun registerLessonRun(taskName: String, lessonName: String, description: String) {
+fun registerLesson(taskName: String, mainClassName: String, description: String) {
     tasks.register<JavaExec>(taskName) {
         group = "application"
         this.description = description
         classpath = sourceSets.main.get().runtimeClasspath
-        mainClass.set("${lessonName}Kt")
+        mainClass.set(mainClassName)
         standardInput = System.`in`
     }
 }
@@ -53,6 +67,5 @@ listOf(
     "Set",
     "HashSet",
 ).forEach { lesson ->
-    val taskName = "run$lesson"
-    registerLessonRun(taskName, lesson, "Run the $lesson lesson")
+    registerLesson("run$lesson", "${lesson}Kt", "Run the $lesson lesson")
 }
