@@ -15,11 +15,11 @@ fun main() {
 
     println("Language name length: ${languageName.length}")
 
-    val nameSurname = "  Halil Ozel   "
-    println(nameSurname)
+    val fullName = "  Halil Ozel   "
+    println(fullName)
 
     // trim() removes leading and trailing whitespace.
-    println(nameSurname.trim())
+    println(fullName.trim())
 
     val message = "WE love KoTlIn"
 

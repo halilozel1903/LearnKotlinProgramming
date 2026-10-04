@@ -21,16 +21,16 @@ dependencies {
     testImplementation(kotlin("test"))
 }
 
+tasks.test {
+    useJUnitPlatform()
+}
+
 application {
     mainClass.set("HelloWorldKt")
 }
 
 tasks.named<JavaExec>("run") {
     standardInput = System.`in`
-}
-
-tasks.test {
-    useJUnitPlatform()
 }
 
 tasks.register<JavaExec>("runLesson") {
@@ -46,18 +46,26 @@ fun registerLesson(taskName: String, mainClassName: String, description: String)
     tasks.register<JavaExec>(taskName) {
         group = "application"
         this.description = description
-        classpath = sourceSets["main"].runtimeClasspath
+        classpath = sourceSets.main.get().runtimeClasspath
         mainClass.set(mainClassName)
         standardInput = System.`in`
     }
 }
 
-registerLesson("runHelloWorld", "HelloWorldKt", "Run the Hello World lesson")
-registerLesson("runVariables", "VariablesKt", "Run the variables lesson")
-registerLesson("runDataTypes", "DataTypesKt", "Run the data types lesson")
-registerLesson("runString", "StringKt", "Run the String lesson")
-registerLesson("runTypeConversions", "TypeConversionsKt", "Run the type conversions lesson")
-registerLesson("runArrays", "ArraysKt", "Run the arrays lesson")
-registerLesson("runArrayList", "ArrayListKt", "Run the ArrayList lesson")
-registerLesson("runSet", "SetKt", "Run the Set lesson")
-registerLesson("runHashSet", "HashSetKt", "Run the HashSet lesson")
+listOf(
+    "HelloWorld",
+    "Variables",
+    "DataTypes",
+    "String",
+    "TypeConversions",
+    "Loops",
+    "When",
+    "Functions",
+    "Map",
+    "Arrays",
+    "ArrayList",
+    "Set",
+    "HashSet",
+).forEach { lesson ->
+    registerLesson("run$lesson", "${lesson}Kt", "Run the $lesson lesson")
+}

@@ -22,36 +22,38 @@ The examples use current Kotlin idioms, English comments, and a Gradle build on 
 ./gradlew run                  # Hello World (default)
 ./gradlew runHelloWorld
 ./gradlew runVariables
-./gradlew runDataTypes
-./gradlew runString
-./gradlew runTypeConversions
-./gradlew runArrays
-./gradlew runArrayList
-./gradlew runSet
-./gradlew runHashSet
+./gradlew runLoops
+./gradlew runFunctions
 ```
 
 You can also run any lesson by file name (without `.kt`):
 
 ```bash
 ./gradlew runLesson -Plesson=Variables
+./gradlew runLesson -Plesson=When
 ```
 
 Open the project in IntelliJ IDEA or Android Studio and run the `main()` function in any lesson file.
 
-## Lessons
+## Lessons (2026 fundamentals track)
 
-| Lesson | What you learn |
-| --- | --- |
-| [Hello World](src/main/kotlin/HelloWorld.kt) | Program entry point, `println` and `print` |
-| [Variables](src/main/kotlin/Variables.kt) | `var` vs `val`, type inference, explicit types |
-| [Data types](src/main/kotlin/DataTypes.kt) | Numbers, Booleans, characters, and literals |
-| [String](src/main/kotlin/String.kt) | String templates, indexing, and common operations |
-| [Type conversions](src/main/kotlin/TypeConversions.kt) | Casting and converting between types |
-| [Arrays](src/main/kotlin/Arrays.kt) | Fixed-size arrays and iteration |
-| [Lists / ArrayList](src/main/kotlin/ArrayList.kt) | `listOf`, `mutableListOf`, and Java `ArrayList` |
-| [Set](src/main/kotlin/Set.kt) | Unique elements and set operations |
-| [HashSet](src/main/kotlin/HashSet.kt) | Mutable sets backed by `HashSet` |
+All lesson sources and Gradle task names use **English** identifiers. Sample output may include Turkish place names or phrases for learners.
+
+| Lesson | Source | Gradle task | Topics |
+| --- | --- | --- | --- |
+| Hello World | [HelloWorld.kt](src/main/kotlin/HelloWorld.kt) | `runHelloWorld` | Entry point, `println` / `print` |
+| Variables | [Variables.kt](src/main/kotlin/Variables.kt) | `runVariables` | `var`, `val`, type inference |
+| Data types | [DataTypes.kt](src/main/kotlin/DataTypes.kt) | `runDataTypes` | Numeric types, `Char`, `String`, `Boolean` |
+| String | [String.kt](src/main/kotlin/String.kt) | `runString` | Concatenation, iteration, `trim`, case, `split` |
+| Type conversions | [TypeConversions.kt](src/main/kotlin/TypeConversions.kt) | `runTypeConversions` | `toInt`, `toIntOrNull`, explicit casts |
+| Loops | [Loops.kt](src/main/kotlin/Loops.kt) | `runLoops` | `while`, `for`, ranges, `break` / `continue`, `repeat` |
+| When | [When.kt](src/main/kotlin/When.kt) | `runWhen` | `when` statement and expression, type checks |
+| Functions | [Functions.kt](src/main/kotlin/Functions.kt) | `runFunctions` | Parameters, defaults, single-expression functions, `vararg` |
+| Map | [Map.kt](src/main/kotlin/Map.kt) | `runMap` | Read-only and mutable maps, keys and values |
+| Arrays | [Arrays.kt](src/main/kotlin/Arrays.kt) | `runArrays` | `arrayOf`, `IntArray`, indices |
+| Lists / ArrayList | [ArrayList.kt](src/main/kotlin/ArrayList.kt) | `runArrayList` | `listOf`, `mutableListOf`, list operations |
+| Set | [Set.kt](src/main/kotlin/Set.kt) | `runSet` | `setOf`, uniqueness, set statistics |
+| HashSet | [HashSet.kt](src/main/kotlin/HashSet.kt) | `runHashSet` | `hashSetOf`, set algebra |
 
 ## Why learn Kotlin?
 

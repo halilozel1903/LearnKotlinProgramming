@@ -80,8 +80,8 @@ fun main() {
     /**
      * String is a sequence of characters. "this is a string" is a String instance.
      */
-    val nameSurname = "John Martin"
-    println(nameSurname)
+    val fullName = "John Martin"
+    println(fullName)
 
     /**
      * Boolean has two values: true and false. It is used in conditions.
