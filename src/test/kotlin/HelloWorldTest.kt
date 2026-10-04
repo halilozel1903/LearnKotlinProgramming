@@ -16,6 +16,7 @@ class HelloWorldTest {
             System.setOut(originalOut)
         }
 
-        assertEquals("Hello World!\nWe Love Kotlin", captured.toString())
+        val expected = "Hello World!${System.lineSeparator()}We Love Kotlin"
+        assertEquals(expected, captured.toString())
     }
 }
